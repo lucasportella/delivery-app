@@ -1,0 +1,791 @@
+repo_name: lucasportella/delivery-app
+report_id: c8af303b232188fa8b0cd671007ef372
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:02:15+00:00'
+requested_by: lucasportella
+provider: github
+branch: main-group-13-feat-style-css
+detected_tools_count: 54
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/lucasportella/delivery-app
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/lucasportella/delivery-app
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/db.example.sql
+  detection_source: db.example.sql
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 6.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 3.0.4
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 20:17:40.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lucasportella/delivery-app
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:32.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: PM2
+  description: Ease-to-use Node.js process manager, like forever
+  website_url: https://github.com/Unitech/pm2
+  version: 4.5.6
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Node.js Process Manager
+  image_url: https://img.stackshare.io/service/2237/757747.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/package.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 10.0.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 13.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/package.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-18 19:26:12.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/lucasportella/delivery-app
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-12 02:15:52.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-11-11 20:13:32.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: chai-http
+  description: Extend Chai Assertion library with tests for http apis
+  package_url: https://www.npmjs.com/chai-http
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16767/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-11-12 01:05:04.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: faker
+  description: Generate massive amounts of fake contextual data
+  package_url: https://www.npmjs.com/faker
+  version: 5.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-15 19:32:52.000000000 Z
+- name: http-status-codes
+  description: Constants enumerating the HTTP status codes
+  package_url: https://www.npmjs.com/http-status-codes
+  version: 2.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17527/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: lucas
+  last_updated_on: 2021-11-12 01:05:04.000000000 Z
+- name: jest-puppeteer
+  description: Run your tests using Jest &amp; Puppeteer
+  package_url: https://www.npmjs.com/jest-puppeteer
+  version: 5.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18197/default_9647c06c26a4e72b5da49bb6013fc37e4ffb841f.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: md5
+  description: Js function for hashing messages with MD5
+  package_url: https://www.npmjs.com/md5
+  version: 2.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16342/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-18 19:26:12.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: mysql2
+  description: Fast mysql driver
+  package_url: https://www.npmjs.com/mysql2
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16671/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 15.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-15 19:32:52.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: react-copy-to-clipboard
+  description: Copy-to-clipboard React component
+  package_url: https://www.npmjs.com/react-copy-to-clipboard
+  version: 5.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 6.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 19:51:20.000000000 Z
+- name: sequelize-cli
+  description: The Sequelize CLI
+  package_url: https://www.npmjs.com/sequelize-cli
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18714/default_5921235b47b1f6f3bd5aba9257245016601078bf.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 20:17:40.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/back-end/package-lock.json
+  detection_source: back-end/package.json
+  last_updated_by: hugolfsimoes
+  last_updated_on: 2021-11-23 20:17:40.000000000 Z
+- name: stylelint-config-standard
+  description: Standard shareable config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-standard
+  version: 22.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: Fabio Marturano
+  last_updated_on: 2021-11-19 20:34:51.000000000 Z
+- name: stylelint-order
+  description: A collection of order related linting rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-order
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16709/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/lucasportella/delivery-app/blob/main-group-13-feat-style-css/front-end/package-lock.json
+  detection_source: front-end/package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-11-09 15:21:26.000000000 Z
